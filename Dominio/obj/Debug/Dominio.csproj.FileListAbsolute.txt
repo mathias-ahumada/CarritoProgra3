@@ -1,0 +1,6 @@
+C:\Programacion III\carritoProgra3\Dominio\bin\Debug\Dominio.dll
+C:\Programacion III\carritoProgra3\Dominio\bin\Debug\Dominio.pdb
+C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.dll
+C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.pdb

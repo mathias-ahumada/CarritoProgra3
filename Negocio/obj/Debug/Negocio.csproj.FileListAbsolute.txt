@@ -1,0 +1,9 @@
+C:\Programacion III\carritoProgra3\Negocio\bin\Debug\Negocio.dll
+C:\Programacion III\carritoProgra3\Negocio\bin\Debug\Negocio.pdb
+C:\Programacion III\carritoProgra3\Negocio\bin\Debug\Dominio.dll
+C:\Programacion III\carritoProgra3\Negocio\bin\Debug\Dominio.pdb
+C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.dll
+C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.pdb

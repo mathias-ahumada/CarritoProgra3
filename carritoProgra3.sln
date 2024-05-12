@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "carritoProgra3", "carritoProgra3\carritoProgra3.csproj", "{55D06F50-00B7-4621-8546-01A1962151C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{91AE639E-3EF9-40AF-8C45-08F10DA28E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{C42617AA-1A89-42E9-B29A-675B76403F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55D06F50-00B7-4621-8546-01A1962151C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D06F50-00B7-4621-8546-01A1962151C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D06F50-00B7-4621-8546-01A1962151C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D06F50-00B7-4621-8546-01A1962151C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91AE639E-3EF9-40AF-8C45-08F10DA28E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AE639E-3EF9-40AF-8C45-08F10DA28E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91AE639E-3EF9-40AF-8C45-08F10DA28E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AE639E-3EF9-40AF-8C45-08F10DA28E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42617AA-1A89-42E9-B29A-675B76403F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42617AA-1A89-42E9-B29A-675B76403F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42617AA-1A89-42E9-B29A-675B76403F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42617AA-1A89-42E9-B29A-675B76403F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F4E7077-665D-430E-9643-E249F96411C6}
+	EndGlobalSection
+EndGlobal
