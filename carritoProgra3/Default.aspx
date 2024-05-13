@@ -12,7 +12,9 @@
         <div>
             <h1>
                 HOLA MUNDO!
-            </h1>
+             </h1>
+             <h2> Home</h2>
+             <a href="Pagina1.aspx" >Ingresar</a>
         </div>
     </form>
 </body>

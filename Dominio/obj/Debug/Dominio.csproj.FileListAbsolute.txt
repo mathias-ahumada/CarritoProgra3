@@ -4,3 +4,9 @@ C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.csproj.AssemblyRefe
 C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.dll
 C:\Programacion III\carritoProgra3\Dominio\obj\Debug\Dominio.pdb
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Dominio\bin\Debug\Dominio.dll
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Dominio\obj\Debug\Dominio.dll
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Dominio\obj\Debug\Dominio.pdb

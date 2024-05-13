@@ -7,3 +7,12 @@ C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.csproj.CoreCompileI
 C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.dll
 C:\Programacion III\carritoProgra3\Negocio\obj\Debug\Negocio.pdb
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\bin\Debug\Negocio.dll
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\bin\Debug\Negocio.pdb
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\bin\Debug\Dominio.dll
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\bin\Debug\Dominio.pdb
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\obj\Debug\Negocio.dll
+C:\Users\GABRIELA\Desktop\TP4\CarritoProgra3\Negocio\obj\Debug\Negocio.pdb
