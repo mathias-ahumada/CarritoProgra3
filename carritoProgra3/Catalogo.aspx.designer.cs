@@ -11,7 +11,7 @@ namespace carritoProgra3
 {
 
 
-    public partial class Pagina1
+    public partial class Catalogo
     {
     }
 }
