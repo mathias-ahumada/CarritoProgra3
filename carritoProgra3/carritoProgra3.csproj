@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Carrito.aspx" />
     <Content Include="Catalogo.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="Catalogo.aspx.designer.cs">
       <DependentUpon>Catalogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
@@ -122,6 +130,10 @@
       <Project>{91ae639e-3ef9-40af-8c45-08f10da28e74}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Stript\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
