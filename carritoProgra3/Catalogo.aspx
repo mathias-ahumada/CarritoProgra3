@@ -4,4 +4,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <h1>HOLA SOY EL CATALOGO...</h1>
+    <asp:GridView runat="server" ID ="dgvCatalogo" OnSelectedIndexChanged="dgvCatalogo_SelectedIndexChanged" CssClass="table" AutoGenerateColumns="false">
+        <Columns>
+            <asp:BoundField HeaderText="Articulo" DataField="Nombre" />
+             <asp:BoundField HeaderText="Precio" DataField="Precio" />
+             <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
+             <asp:BoundField HeaderText="Marca" DataField="Marca" />
+            <asp:CommandField ShowSelectButton="true" SelectText="Comprar" HeaderText="Accion" />
+        </Columns>
+
+    </asp:GridView>
+
+    <a href="Carrito.aspx">Agregar</a>
 </asp:Content>
