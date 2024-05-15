@@ -38,9 +38,10 @@
             </nav>
             <div class="Container">
                 <hr />
+                <div class="Container">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-                |
+                </div>
             <footer>
                 <hr />
                 <a> footer</a>

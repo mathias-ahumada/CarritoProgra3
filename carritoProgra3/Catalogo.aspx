@@ -10,10 +10,11 @@
              <asp:BoundField HeaderText="Precio" DataField="Precio" />
              <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
              <asp:BoundField HeaderText="Marca" DataField="Marca" />
-            <asp:CommandField ShowSelectButton="true" SelectText="Comprar" HeaderText="Accion" />
+            <asp:CommandField ShowSelectButton="true"  SelectText="Comprar" HeaderText="Accion" />
         </Columns>
 
     </asp:GridView>
 
-    <a href="Carrito.aspx">Agregar</a>
+    <asp:Button Text="Agregar"  CssClass="btn btn-primary" ID="btnAgregar" OnClick="btnAgregar_Click1" runat="server" />
+    
 </asp:Content>
