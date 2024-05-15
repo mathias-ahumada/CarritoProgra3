@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>HOLA SOY EL CATALOGO...</h1>
+    <h1>Catalogo de Artículos</h1>
     <asp:GridView runat="server" ID ="dgvCatalogo" OnSelectedIndexChanged="dgvCatalogo_SelectedIndexChanged" CssClass="table" AutoGenerateColumns="false">
         <Columns>
             <asp:BoundField HeaderText="Articulo" DataField="Nombre" />

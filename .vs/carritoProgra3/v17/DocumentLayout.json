@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\",
+  "WorkspaceRootPath": "C:\\Users\\GABRIELA\\Desktop\\2TP4\\CarritoProgra3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91AE639E-3EF9-40AF-8C45-08F10DA28E74}|Negocio\\Negocio.csproj|c:\\users\\gabriela\\desktop\\1tp4\\carritoprogra3\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AE639E-3EF9-40AF-8C45-08F10DA28E74}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D06F50-00B7-4621-8546-01A1962151C4}|carritoProgra3\\carritoProgra3.csproj|c:\\users\\gabriela\\desktop\\2tp4\\carritoprogra3\\carritoprogra3\\catalogo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D06F50-00B7-4621-8546-01A1962151C4}|carritoProgra3\\carritoProgra3.csproj|solutionrelative:carritoprogra3\\catalogo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D06F50-00B7-4621-8546-01A1962151C4}|carritoProgra3\\carritoProgra3.csproj|C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\carritoprogra3\\mastercarrito.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{55D06F50-00B7-4621-8546-01A1962151C4}|carritoProgra3\\carritoProgra3.csproj|solutionrelative:carritoprogra3\\mastercarrito.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C42617AA-1A89-42E9-B29A-675B76403F47}|Dominio\\Dominio.csproj|C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C42617AA-1A89-42E9-B29A-675B76403F47}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D06F50-00B7-4621-8546-01A1962151C4}|carritoProgra3\\carritoProgra3.csproj|C:\\Users\\GABRIELA\\Desktop\\2TP4\\CarritoProgra3\\carritoprogra3\\catalogo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55D06F50-00B7-4621-8546-01A1962151C4}|carritoProgra3\\carritoProgra3.csproj|solutionrelative:carritoprogra3\\catalogo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArticulosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\Negocio\\ArticulosNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\ArticulosNegocio.cs",
-              "ToolTip": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\Negocio\\ArticulosNegocio.cs",
-              "RelativeToolTip": "Negocio\\ArticulosNegocio.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Catalogo.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\GABRIELA\\Desktop\\2TP4\\CarritoProgra3\\carritoProgra3\\Catalogo.aspx.cs",
+              "RelativeDocumentMoniker": "carritoProgra3\\Catalogo.aspx.cs",
+              "ToolTip": "C:\\Users\\GABRIELA\\Desktop\\2TP4\\CarritoProgra3\\carritoProgra3\\Catalogo.aspx.cs",
+              "RelativeToolTip": "carritoProgra3\\Catalogo.aspx.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T03:05:41.707Z",
+              "WhenOpened": "2024-05-15T23:10:00.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MasterCarrito.Master",
-              "DocumentMoniker": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\carritoProgra3\\MasterCarrito.Master",
-              "RelativeDocumentMoniker": "carritoProgra3\\MasterCarrito.Master",
-              "ToolTip": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\carritoProgra3\\MasterCarrito.Master",
-              "RelativeToolTip": "carritoProgra3\\MasterCarrito.Master",
+              "Title": "Catalogo.aspx",
+              "DocumentMoniker": "C:\\Users\\GABRIELA\\Desktop\\2TP4\\CarritoProgra3\\carritoProgra3\\Catalogo.aspx",
+              "RelativeDocumentMoniker": "carritoProgra3\\Catalogo.aspx",
+              "ToolTip": "C:\\Users\\GABRIELA\\Desktop\\2TP4\\CarritoProgra3\\carritoProgra3\\Catalogo.aspx",
+              "RelativeToolTip": "carritoProgra3\\Catalogo.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-14T02:57:56.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\GABRIELA\\Desktop\\1TP4\\CarritoProgra3\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "Dominio\\Articulo.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T00:08:52.354Z"
+              "WhenOpened": "2024-05-15T23:02:13.134Z"
             }
           ]
         }
