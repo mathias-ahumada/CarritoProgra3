@@ -17,7 +17,7 @@ namespace Dominio
         public Imagen()
         {
             IDArticulo = 0;
-            ImagenUrl = "";
+            ImagenUrl = "1";
         }
     }
 }

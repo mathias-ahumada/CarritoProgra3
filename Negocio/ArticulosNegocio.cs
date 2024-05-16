@@ -150,59 +150,15 @@ namespace Negocio
             }
         }
 
-        public List<Articulo> filtrar(string campo, string criterio, string filtro)
+        public List<Articulo> ListaConSp()
         {
-            List < Articulo > lista = new List<Articulo>();
+            List<Articulo> lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
+
             try
             {
-                string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND ";
-                if (campo == "Precio")
-                {
-                    switch (criterio)
-                    {
-                        case "Mayor a":
-                            consulta += "Precio > " + filtro;
-                            break;
-                        case "Menor a":
-                            consulta += "Precio < " + filtro;
-                            break;
-                        default:
-                            consulta += "Precio = " + filtro;
-                            break;
-                    }
-                }
-                else if (campo == "Código")
-                {
-                    switch (criterio)
-                    {
-                        case "Comienza con":
-                            consulta += "Codigo like '" + filtro + "%' ";
-                            break;
-                        case "Termina con":
-                            consulta += "Codigo like '%" + filtro + "'";
-                            break;
-                        default:
-                            consulta += "Codigo like '%" + filtro + "%'";
-                            break;
-                    }
-                }
-                else if (campo == "Nombre")
-                {
-                    switch (criterio)
-                    {
-                        case "Comienza con":
-                            consulta += "Nombre like '" + filtro + "%' ";
-                            break;
-                        case "Termina con":
-                            consulta += "Nombre like '%" + filtro + "'";
-                            break;
-                        default:
-                            consulta += "Nombre like '%" + filtro + "%'";
-                            break;
-                    }
-                }
-                consulta += "ORDER BY Codigo";
+                string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria  ";
+
 
                 datos.setConsulta(consulta);
                 datos.ejecutarLectura();
@@ -232,7 +188,53 @@ namespace Negocio
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
+            }
+        
+
+    }
+
+        public List<Articulo> filtrar(string campo, string criterio, string filtro)
+        {
+            List < Articulo > lista = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                //string consulta = "SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS Descripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, Precio, M.Id AS IDMarca, C.Id AS IDCategoria FROM Articulos AS A, Marcas AS M, Categorias AS C  WHERE M.Id = A.IdMarca AND C.Id = A.IdCategoria AND ";
+
+
+                //datos.setConsulta(consulta);
+                datos.setProcedimiento(listar);
+
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Articulo aux = new Articulo();
+
+                    aux.IDArticulo = (int)datos.Lector["Id"];
+                    aux.Codigo = (string)datos.Lector["Codigo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Precio = (decimal)datos.Lector["Precio"];
+
+                    aux.Marca = new Marca();
+                    aux.Marca.Nombre = (string)datos.Lector["Marca"];
+                    aux.Marca.IDMarca = (int)datos.Lector["IDMarca"];
+
+                    aux.Categoria = new Categoria();
+                    aux.Categoria.Nombre = (string)datos.Lector["Categoria"];
+                    aux.Categoria.IDCategoria = (int)datos.Lector["IDCategoria"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
     }

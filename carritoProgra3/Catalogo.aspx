@@ -10,6 +10,17 @@
              <asp:BoundField HeaderText="Precio" DataField="Precio" />
              <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
              <asp:BoundField HeaderText="Marca" DataField="Marca" />
+            <asp:BoundField HeaderText="Categoria" DataField="Categoria" />
+           <asp:TemplateField HeaderText="Imagen">
+            <ItemTemplate>
+                <asp:Repeater runat="server" ID="rptImagenes" DataSource='<%# Eval("Imagenes") %>'>
+                    <ItemTemplate>
+                        <asp:Image ID="imgImagen" runat="server" ImageUrl='<%# Eval("ImagenUrl") %>' />
+                    </ItemTemplate>
+                </asp:Repeater>
+            </ItemTemplate>
+        </asp:TemplateField>
+
             <asp:CommandField ShowSelectButton="true"  SelectText="Comprar" HeaderText="Accion" />
         </Columns>
 

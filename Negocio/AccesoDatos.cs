@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using Dominio;
 
 namespace Negocio
 {
@@ -62,6 +63,13 @@ namespace Negocio
             }
         }
 
+        void setProcedimiento(string procedimiento)
+        {
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            comando.CommandText = procedimiento;
+
+        }
+
         public int ejecutarScalar()
         {
             comando.Connection = conexion;
@@ -87,6 +95,11 @@ namespace Negocio
         public void setParametros(string clave, object valor)
         {
             comando.Parameters.AddWithValue(clave, valor);
+        }
+
+        internal void setProcedimiento(Func<List<Articulo>> listar)
+        {
+            throw new NotImplementedException();
         }
     }
 }
