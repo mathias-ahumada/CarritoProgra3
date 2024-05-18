@@ -18,7 +18,7 @@
                         <h5 class="card-title"><%# Eval("Nombre") %></h5>
                         <p class="card-text"><%# Eval("Descripcion") %></p>
                         <p class="card-text">Precio: $<%# Eval("Precio") %></p>
-                        
+                        <a href='<%# "Carrito.aspx?id=" + Eval("IDarticulo") %>'>Comprar</a>                        
                     </div>
                 </div>
             </div>
