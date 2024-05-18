@@ -3,29 +3,29 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>Catalogo de Artículos</h1>
-    <asp:GridView runat="server" ID ="dgvCatalogo" OnSelectedIndexChanged="dgvCatalogo_SelectedIndexChanged" CssClass="table" AutoGenerateColumns="false">
-        <Columns>
-            <asp:BoundField HeaderText="Articulo" DataField="Nombre" />
-             <asp:BoundField HeaderText="Precio" DataField="Precio" />
-             <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
-             <asp:BoundField HeaderText="Marca" DataField="Marca" />
-            <asp:BoundField HeaderText="Categoria" DataField="Categoria" />
-           <asp:TemplateField HeaderText="Imagen">
-            <ItemTemplate>
-                <asp:Repeater runat="server" ID="rptImagenes" DataSource='<%# Eval("Imagenes") %>'>
-                    <ItemTemplate>
-                        <asp:Image ID="imgImagen" runat="server" ImageUrl='<%# Eval("ImagenUrl") %>' />
-                    </ItemTemplate>
-                </asp:Repeater>
-            </ItemTemplate>
-        </asp:TemplateField>
+<h1>Catalogo de Artículos</h1>
+<div class="row row-cols-3 row-cols-md-4 g-4">
+    <asp:ListView ID="dgvArticulos" runat="server" ItemPlaceholderID="itemPlaceholder">
+        <LayoutTemplate>
+            <asp:PlaceHolder ID="itemPlaceholder" runat="server" />
+        </LayoutTemplate>
+        <ItemTemplate>
+            <div class="col">
+                <div class="card">
+                    <asp:Image runat="server" ID="imgArticulo" CssClass="card-img-top" />
+                    <img class="card-img-top" src='<%# Eval("iman.ImagenUrl") %>' alt="Imagen del artículo">
+                    <div class="card-body">
+                        <h5 class="card-title"><%# Eval("Nombre") %></h5>
+                        <p class="card-text"><%# Eval("Descripcion") %></p>
+                        <p class="card-text">Precio: $<%# Eval("Precio") %></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </ItemTemplate>
+    </asp:ListView>
+</div>
 
-            <asp:CommandField ShowSelectButton="true"  SelectText="Comprar" HeaderText="Accion" />
-        </Columns>
 
-    </asp:GridView>
-
-    <asp:Button Text="Agregar"  CssClass="btn btn-primary" ID="btnAgregar" OnClick="btnAgregar_Click1" runat="server" />
     
 </asp:Content>

@@ -19,5 +19,6 @@ namespace Dominio
             IDArticulo = 0;
             ImagenUrl = "1";
         }
+
     }
 }

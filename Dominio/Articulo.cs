@@ -14,6 +14,7 @@ namespace Dominio
 
         public Articulo()
         {
+            // Inicializa la lista de imágenes en el constructor
             Imagenes = new List<Imagen>();
         }
 
@@ -38,6 +39,7 @@ namespace Dominio
         [DisplayName("Categoria")]
         public Categoria Categoria { get; set; }
 
+        public Imagen iman { get; set; }
         public List<Imagen> Imagenes { get; set; }
     }
 
